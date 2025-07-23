@@ -17,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Symfony\\UX\\DataTables\\": "src/"
+            "WillsProd\\UX\\DataTables\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Symfony\\UX\\DataTables\\Tests\\": "tests/"
+            "WillsProd\\UX\\DataTables\\Tests\\": "tests/"
         }
     },
     "require": {

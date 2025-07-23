@@ -15,7 +15,7 @@ This bundle integrates [DataTables.net](https://datatables.net) with [Symfony UX
 ## Installation
 
 ```bash
-composer require willsprod/ux-datatables
+composer require WillsProd/ux-datatables
 ```
 
 Make sure StimulusBundle is installed:

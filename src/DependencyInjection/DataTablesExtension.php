@@ -1,16 +1,16 @@
 <?php
 
-namespace Symfony\UX\DataTables\DependencyInjection;
+namespace WillsProd\UX\DataTables\DependencyInjection;
 
-use Symfony\UX\DataTables\Builder\DataTableBuilder;
+use WillsProd\UX\DataTables\Builder\DataTableBuilder;
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\AssetMapper\AssetMapperInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\UX\DataTables\Builder\DataTableBuilderInterface;
+use WillsProd\UX\DataTables\Builder\DataTableBuilderInterface;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Extension\PrependExtensionInterface;
 use Symfony\Component\DependencyInjection\Reference;
-use Symfony\UX\DataTables\Twig\DataTableExtension;
+use WillsProd\UX\DataTables\Twig\DataTableExtension;
 
 class DataTablesExtension extends Extension implements PrependExtensionInterface
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Symfony\UX\DataTables\Twig;
+namespace WillsProd\UX\DataTables\Twig;
 
-use Symfony\UX\DataTables\Model\DataTable;
+use WillsProd\UX\DataTables\Model\DataTable;
 use Symfony\UX\StimulusBundle\Helper\StimulusHelper;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;

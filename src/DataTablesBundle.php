@@ -1,6 +1,6 @@
 <?php
 
-namespace Symfony\UX\DataTables;
+namespace WillsProd\UX\DataTables;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

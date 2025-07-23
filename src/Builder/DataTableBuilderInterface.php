@@ -1,8 +1,8 @@
 <?php
 
-namespace Symfony\UX\DataTables\Builder;
+namespace WillsProd\UX\DataTables\Builder;
 
-use Symfony\UX\DataTables\Model\DataTable;
+use WillsProd\UX\DataTables\Model\DataTable;
 
 interface DataTableBuilderInterface
 {

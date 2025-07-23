@@ -47,5 +47,6 @@
             "url": "https://github.com/symfony/ux"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }

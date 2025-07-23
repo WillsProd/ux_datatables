@@ -28,7 +28,7 @@ class DataTableExtension extends AbstractExtension
         if ($table->getDataController()) {
             $controllers[$table->getDataController()] = [];
         }
-        $controllers['@symfony/ux-datatables/datatable'] = ['view' => $table->getOptions()];
+        $controllers['@willsprod/ux-datatables/datatable'] = ['view' => $table->getOptions()];
 
         $stimulusAttributes = $this->stimulus->createStimulusAttributes();
         foreach ($controllers as $name => $controllerValues) {

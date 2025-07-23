@@ -11,7 +11,7 @@ This bundle integrates [DataTables.net](https://datatables.net) with [Symfony UX
 - Easy integration of DataTables in Symfony projects.
 
 ## Requirements
-- PHP 8.2 or higher
+- PHP 8.1 or higher
 - StimulusBundle
 - Composer
 

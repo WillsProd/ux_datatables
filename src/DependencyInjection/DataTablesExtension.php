@@ -43,7 +43,7 @@ class DataTablesExtension extends Extension implements PrependExtensionInterface
         $container->prependExtensionConfig('framework', [
             'asset_mapper' => [
                 'paths' => [
-                    __DIR__ . '/../../assets/dist' => '@symfony/ux-datatables',
+                    __DIR__ . '/../../assets/dist' => '@willsprod/ux-datatables',
                 ],
             ],
         ]);

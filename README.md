@@ -1,7 +1,7 @@
 # UX DataTables for Symfony
 
-![Packagist Version](https://img.shields.io/packagist/v/willsprod/ux-datatables)
-![License](https://img.shields.io/packagist/l/willsprod/ux-datatables)
+![Packagist Version](https://camo.githubusercontent.com/a693c86800bda81c22170022b2892c40da3bc86723fba218bc79f8560fd215a3/68747470733a2f2f696d672e736869656c64732e696f2f7061636b61676973742f762f77696c6c7370726f642f75782d646174617461626c6573)
+![License](https://camo.githubusercontent.com/6a35f6949ce3f0dda12712e26ece835cc2732a45eb5a3a9b8109cdd867955cdc/68747470733a2f2f696d672e736869656c64732e696f2f7061636b61676973742f6c2f77696c6c7370726f642f75782d646174617461626c6573)
 ![Symfony UX](https://img.shields.io/badge/Symfony%20UX-compatible-brightgreen)
 
 This bundle integrates [DataTables.net](https://datatables.net) with [Symfony UX](https://symfony.com/doc/current/frontend.html) using Stimulus.
@@ -125,4 +125,22 @@ Example to show users List in Symfony
             ];
         }, $result);
     }
+```
+
+```twig
+<!-- templates/user/index.html.twig -->
+{% extends 'base.html.twig' %}
+
+{% block title %}Users list{% endblock %}
+
+{% block body %}
+    <h1 class="text-lg text-slate-600">Users list</h1>
+    <div class="p-4 rounded-lg bg-white overflow-x-auto flex flex-col space-y-4">
+        <div class="flex items-center">
+            <a href="{{ path('app_user_new') }}" class="flex items-center justify-center h-10 rounded-lg px-4 text-white bg-purple-400 duration-150 hover:bg-purple-500">Add user</a>
+        </div>
+        {{ render_datatable(table) }}
+    </div>
+{% endblock %}
+
 ```

@@ -1,5 +1,6 @@
 {
     "name": "willsprod/ux-datatables",
+    "version": "1.0.0",
     "type": "symfony-bundle",
     "description": "DataTables.net integration for Symfony",
     "keywords": ["symfony-ux", "datatable", "stimulus", "symfony"],

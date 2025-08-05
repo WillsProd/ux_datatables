@@ -107,11 +107,8 @@ Example to show users List in Symfony
         $qb = $this->createQueryBuilder('u');
         $qb->select('u.id', 'u.email', 'u.roles');
 
-        // On utilise getArrayResult() pour obtenir un tableau associatif,
-        // puis on transforme chaque ligne en tableau indexé sans clé
         $result = $qb->getQuery()->getScalarResult();
 
-        // On passe les props à la closure via 'use'
         return array_map(function ($row) use ($showRoute, $editRoute) {
             return [
                 $row['id'],

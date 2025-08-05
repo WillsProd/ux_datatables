@@ -1,7 +1,7 @@
 # UX DataTables for Symfony
 
 ![Packagist Version](https://camo.githubusercontent.com/a693c86800bda81c22170022b2892c40da3bc86723fba218bc79f8560fd215a3/68747470733a2f2f696d672e736869656c64732e696f2f7061636b61676973742f762f77696c6c7370726f642f75782d646174617461626c6573)
-![License](https://camo.githubusercontent.com/6a35f6949ce3f0dda12712e26ece835cc2732a45eb5a3a9b8109cdd867955cdc/68747470733a2f2f696d672e736869656c64732e696f2f7061636b61676973742f6c2f77696c6c7370726f642f75782d646174617461626c6573)
+![License](https://img.shields.io/github/license/willsprod/ux_datatables)
 ![Symfony UX](https://img.shields.io/badge/Symfony%20UX-compatible-brightgreen)
 
 This bundle integrates [DataTables.net](https://datatables.net) with [Symfony UX](https://symfony.com/doc/current/frontend.html) using Stimulus.
